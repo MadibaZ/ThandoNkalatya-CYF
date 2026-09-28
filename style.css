@@ -9,45 +9,11 @@
 }
 
 .child{
-  background-color: #f0f4f8;
+  background-color: Burgundy;
   border: 2px solid #f0f4f8;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 8px 16px;
   text-align: center;
   font-family: New Times Roman;
 }
 
-@media(max-width: 1201px){
-  .parent{
-    grid-template-columns: repeat(12, 1fr);
-    justify-self: center;
-  }
-  .child:nth-child(25){
-    grid-column-start: 5;
-    grid-column-end: 8;
-    justify-self: center;
-  }
-  
-  }
-
-@media(max-width:1080px){
-  .parent{
-    grid-template-columns: repeat(, 1fr);
-  }
-  .child:nth-child(25){
-    grid-column-start: 1;
-    grid-column-end:3;
-    justify-self: center;
-  }
-}
-
-@media (max-width: 650px){
-  .parent{
-    grid-template-columns: repeat(3, auto);
-  }
-  .child:nth-child(27){
-    grid-column-start: 1;
-    grid-column-end: 1;
-    justify-self: center;
-  }
-}
