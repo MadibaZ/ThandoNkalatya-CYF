@@ -1,12 +1,10 @@
 .parent{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
   justify-content: center;
   gap: 7px;
-  max-width: 1280px;
-  margin: 0 auto;
-  border: 3px blue dotted;
+  
 }
 
 .child{
@@ -14,7 +12,6 @@
   border: 2px solid black;
   border-radius: 8px;
   padding: 8px 16px;
-  text-align: center;
   font-family: New Times Roman;
   gap: 5px;
 }
