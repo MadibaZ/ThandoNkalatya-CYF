@@ -21,9 +21,7 @@
    align-items: center;
   text-align: center;
 }
-.child:nth-child(25){
-  grid-column-start: 5;
-}
+
 
 @media (max-width: 1201px){
   .parent{
