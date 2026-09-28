@@ -19,7 +19,7 @@
   grid-column-start: 5;
 }
 
-@media (max-width: 1208px){
+@media (max-width: 1201px){
   .parent{
     display: flex;
     flex-wrap: wrap;
