@@ -15,23 +15,20 @@
   border-radius: 12px;
   padding: 15px 5px;
   font-family: New Times Roman;
-  gap: 5px;
-   justify-content: center;
-   align-items: center;
-  text-align: center;
+    justify-content: center;
 }
 
 .child:nth-child(25){
   grid-column-start: 5;
 }
 
-@media (max-width: 1201px){
+@media(max-width: 1201px){
   .parent{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  
   .child:nth-child(25){
     grid-column-start: auto;
   }
