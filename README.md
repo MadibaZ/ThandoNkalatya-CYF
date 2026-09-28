@@ -67,9 +67,9 @@ This is my first website deployment on GitHub. It has a short description of thi
   
 </html>
 
-[index.html](https://github.com/user-attachments/files/32713724/index.html)
 
-[style.css](https://github.com/user-attachments/files/32713735/style.css).parent{
+
+.parent{
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
