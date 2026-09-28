@@ -1,9 +1,10 @@
 .parent{
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
-  gap: 3px;
-  max-width: 1200px;
+ <!-- grid-template-columns: repeat(auto-fit, minmax(90px,1fr)); -->
+  gap: 7px;
+  max-width: 1000px;
   margin: 0 auto;
   border: 3px blue dotted;
 }
@@ -11,12 +12,12 @@
 .child{
   background-color: orange;
   border: 2px solid #f0f4f8;
-  border-radius: 12px;
-  padding: 15px 5px;
+  border-radius: 8px;
+  padding: 8px 16px;
   text-align: center;
   font-family: New Times Roman;
-  box-sizing: border-box;
-  font-size: 14px;
+  <!--box-sizing: border-box;
+  font-size: 14px;-->
 }
 
 @media(max-width: 1201px){
