@@ -17,39 +17,39 @@
   font-family: New Times Roman;
   box-sizing: border-box;
   font-size: 14px;
-  justify-content: center;
 }
 
 @media(max-width: 1201px){
   .parent{
     grid-template-columns: repeat(12, 1fr);
-    justify-content: center
+    justify-self: center;
   }
   .child:nth-child(25){
     grid-column-start: 5;
-    justify-content: center
+    grid-column-end: 8;
+    justify-self: center;
   }
   
   }
 
 @media(max-width:1080px){
   .parent{
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center
+    grid-template-columns: repeat(, 1fr);
   }
   .child:nth-child(25){
     grid-column-start: 1;
-    justify-content: center
+    grid-column-end:3;
+    justify-self: center;
   }
 }
 
 @media (max-width: 650px){
   .parent{
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center
+    grid-template-columns: repeat(3, auto);
   }
-  .child:nth-child(27 ){
+  .child:nth-child(27){
     grid-column-start: 1;
-    justify-content: center
+    grid-column-end: 1;
+    justify-self: center;
   }
 }
