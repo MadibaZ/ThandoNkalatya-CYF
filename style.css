@@ -6,7 +6,7 @@
   gap: 7px;
   max-width: 1201px;
   margin: 0 auto;
-  border: 1px dotted blue;
+  border: 2px blue dotted;
 }
 
 .child{
