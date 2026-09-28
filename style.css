@@ -1,10 +1,10 @@
 .parent{
-  display: inline-grid;
+  display: grid;
+  justify-content: center;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, auto);
-  justify-content: center;
   gap: 7px;
-  max-width: 1201px;
+  max-width: 1208px;
   margin: 0 auto;
   border: 2px blue dotted;
 }
